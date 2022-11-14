@@ -1,0 +1,27 @@
+.footer{
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 730px){
+
+.footer {
+    margin-top: 0!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+}

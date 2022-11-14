@@ -1,0 +1,32 @@
+.logo1{
+     margin: auto;
+     margin-bottom: 3px;
+     margin-top: 5px;
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+}
+.button_style{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    
+ 
+}
+
+.button_style img{
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+
+@media (max-width: 530px){
+
+.logo1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10px!important;
+}
+}
